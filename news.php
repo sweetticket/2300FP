@@ -20,6 +20,7 @@
 		</div>
 		<div class="main_content">
 			<h1>News</h1>
+			<p>Main news page. Link to Announcements and Newsletters will also be here.</p>
 			<?php
 			// The list of articles will be loaded from the database using php.
 			// Logged-in users will also have the ability to edit content.

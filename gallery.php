@@ -21,7 +21,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Gallery</h1>
-
+            <p>Images will go here.</p>
             <?php
             // This page will load content from the database using php and display all the album information for view
             // Alternatively this feature may be done using javascript, which would be done in a separate js file

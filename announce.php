@@ -20,6 +20,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Announcements</h1>
+			<p>Annoucements will go here.</p>
 		</div>
 
 </div>
