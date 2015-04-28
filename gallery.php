@@ -21,6 +21,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Gallery</h1>
+			<p>Images will go here.</p>
 		</div>
 
 </div>

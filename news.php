@@ -20,6 +20,7 @@
 		</div>
 		<div class="main_content">
 			<h1>News</h1>
+			<p>Main news page. Link to Announcements and Newsletters will also be here.</p>
 		</div>
 
 </div>

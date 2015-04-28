@@ -20,6 +20,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Contact Us</h1>
+			<p>Contact form will go here.</p>
 		</div>
 
 </div>

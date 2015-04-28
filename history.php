@@ -20,6 +20,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Our History</h1>
+			<p>History will go here.</p>
 		</div>
 
 </div>
