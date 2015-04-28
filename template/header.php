@@ -1,4 +1,4 @@
-<header>
+<div class="header">
 	<div class="left logo_container">
 		<a href="index.php" class="header_link"><img src="img/logo.jpg" alt="logo" class="header_img"></a>
 	</div>
@@ -11,4 +11,4 @@
 			<a href="sponsors.php"><img src="img/sponsors/title3_toray.jpg" class="sponsor_in_header"></a>
 		</div>
 	</div>
-</header>
+</div>

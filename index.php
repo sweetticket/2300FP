@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>Cornell FSAE</title>
-    <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
 </head>
@@ -13,6 +12,9 @@
 <?php include("template/nav.php"); ?>
 <div class="wrapper">
 <?php include("template/header.php"); ?>
+	<div class="landing_img_container">
+		<img src="img/theteam_landing.jpg" alt="the team" class="landing_img">
+	</div>
 </div>
 
 </body>
