@@ -8,6 +8,7 @@
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/donate.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
 		</div>
 		<div class="main_content">
 			<h1>Donate</h1>
+			<button id="paypal_btn">DONATE VIA PAYPAL</button>
 		</div>
 
 </div>
