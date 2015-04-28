@@ -21,6 +21,12 @@
 		</div>
 		<div class="main_content">
 			<h1>Gallery</h1>
+
+            <?php
+            // This page will load content from the database using php and display all the album information for view
+            // Alternatively this feature may be done using javascript, which would be done in a separate js file
+            // JavaScript would make it easier to display all the images organized by albums on one page
+            ?>
 		</div>
 
 </div>

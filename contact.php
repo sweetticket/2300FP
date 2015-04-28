@@ -20,6 +20,10 @@
 		</div>
 		<div class="main_content">
 			<h1>Contact Us</h1>
+			<?php
+			// This page will contain a form allowing the user to contact the team members
+			// This the form submission will be processed using PHP
+			?>
 		</div>
 
 </div>

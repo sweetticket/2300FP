@@ -20,6 +20,11 @@
 		</div>
 		<div class="main_content">
 			<h1>News</h1>
+			<?php
+			// The list of articles will be loaded from the database using php.
+			// Logged-in users will also have the ability to edit content.
+			// The editing feature may be done in all PHP with an additional edit post page or with JavaScript on this page.
+			?>
 		</div>
 
 </div>
