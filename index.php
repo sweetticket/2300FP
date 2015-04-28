@@ -12,8 +12,10 @@
 <?php include("template/nav.php"); ?>
 <div class="wrapper">
 <?php include("template/header.php"); ?>
-	<div class="landing_img_container">
-		<img src="img/theteam_landing.jpg" alt="the team" class="landing_img">
+	<div class="main_content">
+		<div class="landing_img_container">
+			<img src="img/theteam_landing.jpg" alt="the team" class="landing_img">
+		</div>
 	</div>
 </div>
 

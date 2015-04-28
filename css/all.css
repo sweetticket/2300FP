@@ -16,11 +16,11 @@ body {
 	margin: 0;
 	z-index: 0;
 	padding-top: 55px;
+	background-color: #EEEEEE;
 }
 
-.landing_img_container {
-	padding-top: 20px;
-	width: 100%;
+.main_content {
+	padding-top: 30px;
 }
 
 /* nav */
@@ -114,6 +114,7 @@ nav ul ul {
 .header {
 	padding-bottom: 20px;
 	height: 200px;
+	background-color: rgba(255,255,255,0.7);
 }
 
 .logo_container{
@@ -143,9 +144,17 @@ nav ul ul {
 	padding: 10px;
 }
 
+
 /* landing img */
-.landing_img {
+
+.landing_img_container {
+	padding-top: 20px;
+	text-align: center;
 	width: 100%;
+}
+
+.landing_img {
+	width: 90%;
 	height: auto;
 }
 
