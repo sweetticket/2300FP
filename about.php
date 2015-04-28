@@ -14,6 +14,16 @@
 <?php include("template/nav.php"); ?>
 <div class="wrapper">
 <?php include("template/header.php"); ?>
+<div class="main_content_wrapper">
+		<div class="landing_img_container">
+			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
+		</div>
+		<div class="main_content">
+			<h1>About</h1>
+			<p>Main about page. General information about FSAE will go here. Also, links to the sub-categories under "About" </p>
+		</div>
+
+</div>
 </div>
 
 </body>

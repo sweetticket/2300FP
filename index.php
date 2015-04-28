@@ -13,9 +13,15 @@
 <?php include("template/nav.php"); ?>
 <div class="wrapper">
 <?php include("template/header.php"); ?>
-	<div class="main_content">
+	<div class="main_content_wrapper">
 		<div class="landing_img_container">
 			<img src="img/theteam_landing.jpg" alt="the team" class="landing_img">
+		</div>
+		<div class="main_content">
+			<h1></h1>
+		</div>
+		<div class="twitter_side">
+			<!-- this is where the twitter feed will go -->
 		</div>
 	</div>
 </div>

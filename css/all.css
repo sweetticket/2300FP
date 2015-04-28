@@ -19,8 +19,12 @@ body {
 	background-color: #EEEEEE;
 }
 
-.main_content {
+.main_content_wrapper {
 	padding-top: 30px;
+}
+
+.main_content {
+	
 }
 
 /* nav */
