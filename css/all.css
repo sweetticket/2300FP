@@ -66,10 +66,6 @@ nav a:hover {
 	transition: background-color 0.3s linear;
 }
 
-.right {
-	float: right;
-}
-
 nav ul ul {
 	display: none;
 }
@@ -112,10 +108,48 @@ nav ul ul {
 header {
 }
 
+.logo_container{
+	width: 50%;
+}
 
 .header_img {
-	width: 50%;
+	width: 100%;
 	margin-left: 50px;
 	margin-top: 40px;
 
+}
+
+.sponsors_header {
+	width: 40%;
+	padding-top: 20px;
+}
+
+.sponsor_in_header {
+	width: 180px;
+	padding: 7px;
+}
+
+.sponsors_row {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* global */
+
+.error_msg {
+	color: red;
+}
+
+.success_msg {
+	color: green;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
