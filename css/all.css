@@ -7,6 +7,7 @@ body {
 .wrapper {
 	position: relative;
 	z-index: 0;
+	padding-top: 55px;
 }
 
 
@@ -28,7 +29,7 @@ nav {
 nav ul {
 	margin: 0 50px 0 0;
     height: inherit;
-    float: right;
+    float: left;
 }
 
 nav li {
@@ -47,18 +48,8 @@ nav a {
     height: 55px;
 }
 
-#nav_title {
-	float: left;
-	width: 200px;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 55px;
-}
-
-nav h1 {
-	margin-left: 30px;
-	display: block;
-	height: 55px;
+.right {
+	float: right;
 }
 
 nav ul ul {
@@ -98,3 +89,17 @@ nav ul ul {
 			nav ul ul li a:hover {
 				background: #4b545f;
 			}
+
+
+/* header */
+
+header {
+}
+
+
+.header_img {
+	width: 50%;
+	margin-left: 50px;
+	margin-top: 40px;
+
+}

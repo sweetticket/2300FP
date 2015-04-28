@@ -10,8 +10,9 @@
 </head>
 
 <body>
-<?php include("template/nav.php"); ?>
+<?php include("template/nav.php");  ?>
 <div class="wrapper">
+<?php include("template/header.php"); ?>
 </div>
 
 </body>
