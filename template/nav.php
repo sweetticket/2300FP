@@ -13,7 +13,7 @@
             </li>
             <li class="has_sub"><a class="nav_link" href="news.php">NEWS</a>
                 <ul class="sub_menu">
-                    <li class="nav_sub"><a class="nav_link nav_sub" href="annouce.php">Announcements</a></li>
+                    <li class="nav_sub"><a class="nav_link nav_sub" href="announce.php">Announcements</a></li>
                     <li class="nav_sub"><a class="nav_link nav_sub" href="newsletters.php">Newsletters</a></li>
                 </ul>
             </li>
