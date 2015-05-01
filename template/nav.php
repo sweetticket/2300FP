@@ -23,7 +23,7 @@
     <ul class="right">
         <li class-"nav_link login_nav_link"><a class="nav_link" href="login.php">
             <?php
-            $label = isset($_SESSION['logged_user_by_sql']) ? 'LOGOUT' : 'LOGIN';
+            $label = isset($_SESSION['logged_user_by_sql']) ? 'LOG OUT' : 'LOG IN';
             print($label);
             ?>
         </a></li>
