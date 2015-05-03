@@ -15,6 +15,9 @@
 <?php //include("template/header.php"); ?>
 	<div class="main_content_wrapper">
 		<div class="landing_img_container">
+			<div class="header_logo_container">
+				<img src="img/logo.png" alt="logo" class="header_logo">
+			</div>
 			<img src="img/team/theteam.jpg" alt="the team" class="landing_img">
 		</div>
 		<div class="main_content">
