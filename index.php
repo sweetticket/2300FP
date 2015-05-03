@@ -27,6 +27,9 @@
 			<!-- this is where the twitter feed will go -->
 		</div>
 	</div>
+
+	<?php include("template/footer.php"); ?>
+
 </div>
 
 </body>
