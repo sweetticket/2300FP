@@ -73,8 +73,8 @@ nav a:link, nav a:visited{
 }
 
 .nav_link:hover {
-	border-bottom: 5px solid #E26A6A;
-    color: #E26A6A;
+	border-bottom: 5px solid #F64747;
+    color: #F64747;
 	/*background-color: #333333;*/
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -113,7 +113,7 @@ nav ul ul {
 
 		}	
 			nav ul ul li a:hover {
-    			color: #E26A6A;
+    			color: #F64747;
 				-webkit-transition: color 0.4s ease;
 				transition: color 0.4s ease;
 			}
