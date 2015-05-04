@@ -8,6 +8,7 @@
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/competition.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
 			<p>
 				The structure of the competition is as follows:
 			</p>
-			<p>
+			<p id="list">
 
 				Static Events: <br>
 				Engineering Design <br>
