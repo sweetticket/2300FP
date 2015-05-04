@@ -1,0 +1,14 @@
+h1{
+	text-align: center;
+}
+#loginform{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+#submit{
+	font-size: 20px;
+}
+input{
+	line-height: 20px;
+}

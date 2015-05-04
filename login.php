@@ -8,6 +8,7 @@
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 
 <body>
@@ -42,14 +43,14 @@
                     }
                 }else {
                     ?>
-                    <form action="login.php" method="post">
+                    <form id = "loginform" action="login.php" method="post">
                         Username: <input type="text" name="username">
                         <br>
                         <br>
                         Password: <input type="password" name="password">
                         <br>
                         <br>
-                        <input type="submit" value="Log in">
+                        <input id="submit" type="submit" value="Log in">
                     </form>
 
                 <?php
