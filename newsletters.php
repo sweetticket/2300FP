@@ -8,6 +8,7 @@
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/newsletters.css">
 </head>
 
 <body>

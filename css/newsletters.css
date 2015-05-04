@@ -1,0 +1,16 @@
+
+.main_content_wrapper{
+	padding-left: 10%;
+}
+li{
+	margin-bottom: 20px;
+}
+a{
+	font-size: 20px;
+	font-family: Arial;
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: maroon;
+}
