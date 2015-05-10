@@ -23,62 +23,103 @@ $headersrc = "../img/headers/header_sponsors.png"; ?>
 		</div>
 		<div class="main_content">
 			<h1>Our Sponsors</h1>
-			<div class="sponsors_container" id="title_sponsors">
-				<h2>Title Sponsors</h2>
-				<img src="img/sponsors/title1_destiny.png" alt="title1_destiny">
-				<img src="img/sponsors/title2_watkins.png" alt="title2_watkins">
-				<img src="img/sponsors/title3_toray.png" alt="title3_toray">
-			</div>
-			<div class="sponsors_container" id="platnum_sponsors">
-				<h2>Platnum Sponsors</h2>
-				<img src="img/sponsors/platnum1.png" alt="platnum1">
-				<img src="img/sponsors/platnum2.png" alt="platnum2">
-				<img src="img/sponsors/platnum3.png" alt="platnum3">
-				<img src="img/sponsors/platnum4.png" alt="platnum4">
-				<img src="img/sponsors/platnum5.png" alt="platnum5">
-				<img src="img/sponsors/platnum6.png" alt="platnum6">
-				<img src="img/sponsors/platnum7.png" alt="platnum7">
-			</div>
-			<div class="sponsors_container" id="gold_sponsors">
-				<h2>Gold Sponsors</h2>
-				<img src="img/sponsors/gold1.png" alt="gold1">
-				<img src="img/sponsors/gold2.png" alt="gold2">
-				<img src="img/sponsors/gold3.png" alt="gold3">
-				<img src="img/sponsors/gold4.png" alt="gold4">
-				<img src="img/sponsors/gold5.png" alt="gold5">
-				<img src="img/sponsors/gold6.png" alt="gold6">
-				<img src="img/sponsors/gold7.png" alt="gold7">
-				<img src="img/sponsors/gold8.png" alt="gold8">
-				<img src="img/sponsors/gold9.png" alt="gold9">
-			</div>
-			<div class="sponsors_container" id="silver_sponsors">
-				<h2>Silver Sponsors</h2>
-				<img src="img/sponsors/silver1.png" alt="silver1">
-				<img src="img/sponsors/silver2.png" alt="silver2">
-				<img src="img/sponsors/silver3.png" alt="silver3">
-				<img src="img/sponsors/silver4.png" alt="silver4">
-				<img src="img/sponsors/silver5.png" alt="silver5">
-				<img src="img/sponsors/silver6.png" alt="silver6">
-				<img src="img/sponsors/silver7.png" alt="silver7">
-				<img src="img/sponsors/silver8.png" alt="silver8">
-				<img src="img/sponsors/silver9.png" alt="silver9">
-				<img src="img/sponsors/silver10.png" alt="silver10">
-				<img src="img/sponsors/silver11.png" alt="silver11">
-				<img src="img/sponsors/silver12.png" alt="silver12">
-				<img src="img/sponsors/silver13.png" alt="silver13">
-			</div>
-			<div class="sponsors_container" id="bronze_sponsors">
-				<h2>Bronze Sponsors</h2>
-				<img src="img/sponsors/bronze1.png" alt="bronze1">
-				<img src="img/sponsors/bronze2.png" alt="bronze2">
-				<img src="img/sponsors/bronze3.png" alt="bronze3">
-				<img src="img/sponsors/bronze4.png" alt="bronze4">
-				<img src="img/sponsors/bronze5.png" alt="bronze5">
-				<img src="img/sponsors/bronze6.png" alt="bronze6">
-				<img src="img/sponsors/bronze7.png" alt="bronze7">
-				<img src="img/sponsors/bronze8.png" alt="bronze8">
-				<img src="img/sponsors/bronze9.png" alt="bronze9">
-			</div>
+			<?php
+			require_once 'config.php';
+			$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+			// Process add sponsor form
+			if (isset($_POST['submit']) &&
+					isset($_SESSION['logged_user_by_sql']) &&
+					$_SESSION['logged_user_by_sql']=='cornellfsae') {
+				if ($_POST['submit'] == 'Add Sponsor') {
+					if (!isset($_FILES['photo'])) {
+						print("<p style='color:#FF0000'>No photo uploaded, please select a photo before submitting the form</p>");
+					} else {
+						$photo = $_FILES['photo'];
+						$tier = $_POST['tier'];
+
+						$origName = $photo['name'];
+						$tempName = $photo['tmp_name'];
+
+						if (file_exists('img/sponsors/' . $origName)) {
+							print("<p style='color:#FF0000'>Error: File with that name already exists, please try again</p>");
+						} else {
+							$mysqli->query("INSERT INTO Sponsors (imagePath, tier) VALUES ('img/sponsors/$origName', $tier)");
+
+							move_uploaded_file($tempName, "img/sponsors/$origName");
+
+							print("<p>Sponsor added successfully!</p>");
+						}
+					}
+				}
+			}
+
+			// Title Sponsors
+			$result = $mysqli->query("SELECT * FROM Sponsors WHERE tier = 1");
+			print("<div class='sponsors_container' id='title_sponsors'>
+				<h2>Title Sponsors</h2>");
+			while ($row = $result->fetch_row()){
+				print("<img src='$row[1]' alt='Title Sponsor''>");
+			}
+			print("</div>");
+
+			// Platinum Sponsors
+			$result = $mysqli->query("SELECT * FROM Sponsors WHERE tier = 2");
+			print("<div class='sponsors_container' id='platinum_sponsors'>
+				<h2>Platinum Sponsors</h2>");
+			while ($row = $result->fetch_row()){
+				print("<img src='$row[1]' alt='Platinum Sponsor''>");
+			}
+			print("</div>");
+
+			//Gold Sponsors
+			$result = $mysqli->query("SELECT * FROM Sponsors WHERE tier = 3");
+			print("<div class='sponsors_container' id='gold_sponsors'>
+				<h2>Gold Sponsors</h2>");
+			while ($row = $result->fetch_row()){
+				print("<img src='$row[1]' alt='Gold Sponsor''>");
+			}
+			print("</div>");
+
+			// Silver Sponsors
+			$result = $mysqli->query("SELECT * FROM Sponsors WHERE tier = 4");
+			print("<div class='sponsors_container' id='silver_sponsors'>
+				<h2>Silver Sponsors</h2>");
+			while ($row = $result->fetch_row()){
+				print("<img src='$row[1]' alt='Silver Sponsor''>");
+			}
+			print("</div>");
+
+			// Bronze Sponsors
+			$result = $mysqli->query("SELECT * FROM Sponsors WHERE tier = 5");
+			print("<div class='sponsors_container' id='bronze_sponsors'>
+				<h2>Bronze Sponsors</h2>");
+			while ($row = $result->fetch_row()){
+				print("<img src='$row[1]' alt='Bronze Sponsor''>");
+			}
+			print("</div>");
+
+			if (isset($_SESSION['logged_user_by_sql']) && $_SESSION['logged_user_by_sql']=='cornellfsae'){
+				?>
+				<div>
+					<h1>Add a Sponsor</h1>
+					<form class='form' action='sponsors.php' enctype='multipart/form-data' method='post'>
+						<p>Select photo:  <input type='file' accept='image/*' name='photo'></p>
+						<p>Tier:
+							<select name='tier'>
+								<option value='1'>Title</option>
+								<option value='2'>Plainum</option>
+								<option value='3'>Gold</option>
+								<option value='4'>Silver</option>
+								<option value='5'>Bronze</option>
+							</select>
+						</p>
+						<input type='submit' name='submit' value='Add Sponsor'>
+					</form>
+				</div>
+				<?php
+			}
+			?>
 		</div>
 
 </div>
