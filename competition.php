@@ -17,9 +17,10 @@
 <?php include("template/header.php"); ?>
 <div class="main_content_wrapper">
 		<div class="landing_img_container">
-			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
+			<img src="img/gallery/competition/comp1.jpg" alt="competition1" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div class="main_content">
+			<div class="info">
 			<h1>The Competition</h1>
 			<p>
 				Formula SAE, or FSAE, is an international competition for students to design, 
@@ -33,23 +34,32 @@
 			<p>
 				The structure of the competition is as follows:
 			</p>
-			<p id="list">
+		</div>
 
-				Static Events: <br>
+				<div class="competition_img_container">
+			<img src="img/gallery/competition/comp2.jpg" alt="competition2" class="comp_img">
+		</div>
+
+		<div class="structure">
+			<p id="list1">
+
+				<strong>Static Events: </strong><br>
 				Engineering Design <br>
 				Cost Analysis <br>
 				Business Presentation <br>
 				<br>
-				Dynamic Events <br>
+				<strong>Dynamic Events:</strong> <br>
 				Endurance<br>
 				Autocross<br>
 				Fuel Efficiency<br>
 				Acceleration<br>
 				Skid-pad<br>
 				<br>
-				<br>
 
-				Total:<br>
+				Total:
+			</p>
+			<p id="list2">
+				<br>
 				150 points<br>
 				100 points<br>
 				75 points <br>
@@ -67,6 +77,12 @@
 			</p>
 		</div>
 
+
+
+
+		</div>
+
+		
 </div>
 </div>
 

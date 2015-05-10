@@ -1,15 +1,38 @@
-.main_content{
+.main_content_wrapper{
 	width: 80%;
 	margin-left: 10%;
 	padding: 20px;
 }
-p{
+.info p{
 	font-size: 20px;
 	line-height: 30px;
 	font-family: 'Times New Roman';
 }
-#list{
-	margin-left: 10%;
-	font-size: 16px;
-	line-height: 25px;
+.structure{
+	width:50%;
+	margin-left: 3%;
+	padding: 20px;
+	display: inline-block;
+}
+.comp_img{
+	width: 40%;
+	display: inline-block;
+	margin-top: 80px;
+	margin-right: 2%;
+	float: right;
+
+}
+#list1{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Times New Roman';
+	display: inline-block;
+	float: left;
+}
+#list2{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Times New Roman';
+	display: inline-block;
+	margin-left: 50px;
 }
