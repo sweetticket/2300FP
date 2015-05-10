@@ -44,14 +44,18 @@ ul {
 .side_nav ul ul {
 	display: none;
 }
-
+/*
 	.side_nav ul li:hover > ul {
 		display: block;
 	}
+	*/
 
 .side_nav ul ul {
-	background: #333333; border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
+	background: #333333; 
+	border-radius: 0px; 
+	padding: 0;
+	/*position: absolute; */
+	top: 100%;
 	margin: 0;
 }
 	.side_nav ul ul li {

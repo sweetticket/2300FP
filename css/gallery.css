@@ -1,0 +1,12 @@
+.main_content{
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+}
+.main_content img{
+	display: inline-block;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}

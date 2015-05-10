@@ -8,9 +8,11 @@ $headersrc = "../img/headers/header_cars.png"; ?>
     <meta charset="utf-8">
     <title>The Cars</title>
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
-    <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="css/cars.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src='js/cars.js'></script>	
 </head>
 
 <body>
@@ -24,8 +26,8 @@ include("template/header.php"); ?>
 		</div>
 		<div class="side_nav">
 			<ul>
-				<li><a href="#current" class="car_nav_link">The Current Car</a></li>
-				<li><a href="#2010s" class="car_nav_link">2010s</a>
+				<li class="car_nav"><a href="#current" class="car_nav_link">The Current Car</a></li>
+				<li class="car_nav"><a href="#2010s" class="car_nav_link">2010s</a>
 					<ul>
 						<li><a id="2015" href="#current" class="car_nav_link">2015</a></li>
 						<li><a id="2014" href="#" class="car_nav_link">2014</a></li>
@@ -35,7 +37,7 @@ include("template/header.php"); ?>
 						<li><a id="2010" href="#" class="car_nav_link">2010</a></li>
 					</ul>
 				</li>
-				<li><a href="#2000s" class="car_nav_link">2000s</a>
+				<li class="car_nav"><a href="#2000s" class="car_nav_link">2000s</a>
 					<ul>
 						<li><a id="2009" href="#" class="car_nav_link">2009</a></li>
 						<li><a id="2008" href="#" class="car_nav_link">2008</a></li>
@@ -49,7 +51,7 @@ include("template/header.php"); ?>
 						<li><a id="2000" href="#" class="car_nav_link">2000</a></li>
 					</ul>
 				</li>
-				<li><a href="#1990s" class="car_nav_link">1990s</a>
+				<li class="car_nav"><a href="#1990s" class="car_nav_link">1990s</a>
 					<ul>
 						<li><a id="1999" href="#" class="car_nav_link">1999</a></li>
 						<li><a id="1998" href="#" class="car_nav_link">1998</a></li>
@@ -63,7 +65,7 @@ include("template/header.php"); ?>
 						<li><a id="1990" href="#" class="car_nav_link">1990</a></li>
 					</ul>
 				</li>
-				<li><a href="#1980s" class="car_nav_link">1980s</a>
+				<li class="car_nav"><a href="#1980s" class="car_nav_link">1980s</a>
 					<ul>
 						<li><a id="1989" href="#" class="car_nav_link">1989</a></li>
 						<li><a id="1988" href="#" class="car_nav_link">1988</a></li>
