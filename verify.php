@@ -1,6 +1,6 @@
 <?php
-	$nameErr = $emailErr = $subjectErr = "";
-	$name = $email = $subject = $message = "";
+	$nameErr = $emailErr = $subjectErr = $messageErr = "";
+	$name = $email = $subject = $message = $success = "";
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		// Validate name
@@ -8,13 +8,13 @@
 	    	$nameErr = "Name is required";
 	   	} else {
 	     	$name = checkInput($_POST["contactName"]);
-	     	if (!preg_match("^[^±!@£$%^&*_+§¡€#¢§¶•ªº«\\/<>?:;|=.,]{1,20}$", $name)) {
+	     	if (preg_match("^([ \u00c0-\u01ffa-zA-Z'\-])+$", $name)) {
 	       		$nameErr = "Please enter a valid name"; 
 	    	}
 	   	}
 	   	// Validate email
 	   	if (empty($_POST["contactEmail"])) {
-	    	 $emailErr = "Email address is required";
+	    	$emailErr = "Email address is required";
 	   	} else {
 	     	$email = checkInput($_POST["contactEmail"]);
 	     	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -23,13 +23,13 @@
 		}
 		// Validate subject
 		if (empty($_POST["contactSubject"])) {
-	    	 $subjectErr = "Subject is required";
+	    	$subjectErr = "Subject is required";
 	   	} else {
 	     	$subject = checkInput($_POST["contactSubject"]);
 		}
 		// Validate comment
 		if (empty($_POST["message"])) {
-	     	$message = "";
+	     	$messageErr = "Please enter a message";
 		} else {
 	     	$message = checkInput($_POST["message"]);
 	 	}

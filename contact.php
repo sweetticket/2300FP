@@ -23,7 +23,7 @@ $headersrc = "../img/headers/header_contact.png"; ?>
 			</div>
 			<div class="main_content">
 				<h1>Contact Form</h1>
-				<form name = "contactForm" method = "post">
+				<form name = "contactForm" method = "post" action = "contact.php">
 					<?php include("verify.php"); ?>
 					<label for = "contactName"> Name </label>
 				   		<input type = "text" name = "contactName" value = "<?php echo $name;?>">
@@ -39,12 +39,18 @@ $headersrc = "../img/headers/header_contact.png"; ?>
 				   	<br><br>
 				   	<label for = "contactMessage"> Message </label>
 				   		<textarea name = "message" rows = "5" cols = "40"><?php echo $message;?></textarea>
+				   	<span class = "error"><?php echo $messageErr;?></span>
 				   	<br><br>
-				   	<input type = "submit" name = "submit" value = "Submit"> 
+				   	<input type = "submit" name = "submit" value = "Submit">
+				   	<span class = "error"><?php echo $success;?></span>
 				   	<?php
 				   	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-				   		if ( $nameErr == '' && $emailErr == '' && $subjectErr == '') {
-							mail ("rl393@cornell.edu", $subject, $message);
+				   		if ($nameErr == '' && $emailErr == '' && $subjectErr == '') {
+				   			$to = "rl393@cornell.edu";
+				   			$message .= "\r\n" . "From: " . $name . "\r\n" . "Email: " . $email;
+							if (mail ($to, $subject, $message)) {
+								$success = "We will get back to you shortly!";
+							}
 						}
 					}
 				   	?>
