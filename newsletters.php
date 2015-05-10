@@ -17,7 +17,7 @@
 <?php include("template/header.php"); ?>
 <div class="main_content_wrapper">
 		<div class="landing_img_container">
-			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
+			<img src="img/gallery/newsletter.jpg" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div class="main_content">
 			<h1>Newsletters</h1>
