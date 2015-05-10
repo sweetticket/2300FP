@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start();
+$title = "DONATE";
+$headersrc = "../img/headers/header_donate.png"; ?>
 <!DOCTYPE html>
 
 <html>

@@ -1,16 +1,15 @@
 
-.main_content_wrapper{
-	padding-left: 10%;
-}
-li{
+.newsletter_item{
 	margin-bottom: 20px;
 }
-a{
+
+.newsletter_link, .newsletter_link:link, .newsletter_link:visited{
 	font-size: 20px;
 	font-family: Arial;
 	text-decoration: none;
-	color: black;
+	color: #000;
 }
+
 a:hover{
 	color: maroon;
 }

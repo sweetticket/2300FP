@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+$title = "NEWS";
+$headersrc = "../img/headers/header_news.png";?>
 <!DOCTYPE html>
 
 <html>
@@ -26,6 +28,17 @@
 			// Logged-in users will also have the ability to edit content.
 			// The editing feature may be done in all PHP with an additional edit post page or with JavaScript on this page.
 			?>
+
+			<h1>Newsletters</h1>
+			<ul>
+				<li><a href="docs/ARG15_Winter.pdf">Winter 2015</a></li>
+				<li><a href="docs/ARG14_Winter.pdf">Winter 2014</a></li>
+				<li><a href="docs/Fall2013.pdf">Fall 2013</a></li>
+				<li><a href="docs/postcomp13.pdf">Post-Competition 2013</a></li>
+				<li><a href="docs/sp12.pdf">Post-Competition 2012</a></li>
+
+			</ul>
+			<p>PLACEHOLDER FOR NEWSLETTER SIGNUP FORM</p>
 		</div>
 
 </div>

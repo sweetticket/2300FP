@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start();
+$title = "CONTACT US";
+$headersrc = "../img/headers/header_contact.png"; ?>
 <!DOCTYPE html>
 
 <html>

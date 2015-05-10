@@ -1,14 +1,4 @@
 <div class="header">
-	<div class="left logo_container">
-		<a href="index.php" class="header_link"><img src="img/logo.png" alt="logo" class="header_img"></a>
-	</div>
-	<div class="sponsors_header right">
-		<div class="sponsors_row">
-			<a href="sponsors.php"><img src="img/sponsors/title1_destiny.png" class="sponsor_in_header"></a>
-			<a href="sponsors.php"><img src="img/sponsors/title2_watkins.png" class="sponsor_in_header"></a>
-		</div>
-		<div class="sponsors_row">	
-			<a href="sponsors.php"><img src="img/sponsors/title3_toray.png" class="sponsor_in_header"></a>
-		</div>
-	</div>
+	<a href="#main_content" class="header_link"><?php if (!empty($title)) { echo($title); } ?></a>
+	<img class="headerbg" src=<?php if (!empty($headersrc)) { echo($headersrc); } ?> alt="headerbg">
 </div>

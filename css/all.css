@@ -27,7 +27,8 @@ body {
 }
 
 .main_content {
-
+	margin: 20px auto;
+	width: 80%;
 }
 
 /* nav */
@@ -126,14 +127,29 @@ nav ul ul {
 
 .header {
 	padding-bottom: 20px;
-	height: 200px;
-	background-color: rgba(255,255,255,0.7);
+	height: 500px;
+ 	position: relative;
+ 	overflow: hidden;
 }
 
 .logo_container{
 	width: 50%;
 	text-align: center;
 }
+
+.header_link {
+	width: 100%;
+	position: absolute;
+	top: 150px;
+	z-index: 5;
+	padding-top: 30px;
+	font-family: 'Lato';
+	font-size: 90px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
 
 .header_logo_container {
 	width: 100%;
@@ -154,26 +170,17 @@ nav ul ul {
 	margin-left: 50px;
 	margin-top: 40px;
 	position: relative;
-	z-index: 0;
-
+	z-index: 1;
 }
 
-.sponsors_header {
-	width: 40%;
-	padding-top: 20px;
+.headerbg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.9;
 }
-
-.sponsor_in_header {
-	width: 180px;
-	padding: 7px;
-}
-
-.sponsors_row {
-	display: block;
-	text-align: center;
-	padding: 10px;
-}
-
 
 /* landing img */
 

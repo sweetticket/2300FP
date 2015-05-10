@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+$title = "THE CARS";
+$headersrc = "../img/headers/header_cars.png"; ?>
 <!DOCTYPE html>
 
 <html>
@@ -14,7 +16,8 @@
 <body>
 <?php include("template/nav.php");  ?>
 <div class="wrapper">
-<?php include("template/header.php"); ?>
+<?php
+include("template/header.php"); ?>
 <div class="main_content_wrapper">
 		<div class="landing_img_container">
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->

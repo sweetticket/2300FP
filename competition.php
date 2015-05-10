@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+$title = "THE COMPETITION";
+$headersrc = "../img/headers/header_comp.png"; ?>
 <!DOCTYPE html>
 
 <html>
