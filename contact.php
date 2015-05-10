@@ -21,7 +21,8 @@
 			</div>
 			<div class="main_content">
 				<h1>Contact Form</h1>
-				<form name = "contactForm" method = "post" action = "verify.php">
+				<form name = "contactForm" method = "post">
+					<?php include("verify.php"); ?>
 					<label for = "contactName"> Name </label>
 				   		<input type = "text" name = "contactName" value = "<?php echo $name;?>">
 				   	<span class = "error"><?php echo $nameErr;?></span>
@@ -38,7 +39,13 @@
 				   		<textarea name = "message" rows = "5" cols = "40"><?php echo $message;?></textarea>
 				   	<br><br>
 				   	<input type = "submit" name = "submit" value = "Submit"> 
-				   	
+				   	<?php
+				   	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+				   		if ( $nameErr == '' && $emailErr == '' && $subjectErr == '') {
+							mail ("rl393@cornell.edu", $subject, $message);
+						}
+					}
+				   	?>
 				</form>
 
 				<p>Interested in Cornell Racing? Contact us at:</p>

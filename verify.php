@@ -41,10 +41,4 @@
 	   	$data = htmlspecialchars($data);
 	   	return $data;
 	}
-
-   	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   		if ( $nameErr == '' && $emailErr == '' && $subjectErr == '') {
-			mail ("rl393@cornell.edu", $subject, $message);
-		}
-	}
-	?>
+?>
