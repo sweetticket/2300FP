@@ -33,7 +33,15 @@
 					<br>
 					Cornell University is a 501(c)(3) organization and all donations are tax deductible. <br>
 					<br>
-					If you have any questions, please check out our online donation page, our sponsorship packet or contact us through our email, cufsae@cornell.edu.<br>
+					If you have any questions, please check out our 
+					<a href="https://www.giving.cornell.edu/give/?gifttype=21&comments=Cornell%20Formula%20SAE%20Racing%20%28All%20Donations%20To%20E55-8747%29">
+						online donation page
+					</a>
+					, our 
+					<a href="docs/2015sponsor.pdf">
+					sponsorship packet
+					</a>
+					 or contact us through our email, <strong> cufsae@cornell.edu</strong>.<br>
 					<br>
 					Thank you for your support!
 				</p>
@@ -44,7 +52,7 @@
 				<a href="https://www.giving.cornell.edu/give/?gifttype=21&comments=Cornell%20Formula%20SAE%20Racing%20%28All%20Donations%20To%20E55-8747%29">
 					<button id="paypal_btn">Donate Online</button>
 				</a>
-				
+
 				</div>
 			</div>
 

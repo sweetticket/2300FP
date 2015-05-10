@@ -5,7 +5,7 @@
 }
 h1{
 	font-size: 40px;
-
+	color: maroon;
 }
 p{
 	font-size: 18px;
@@ -14,6 +14,10 @@ p{
 	display: inline-block;
 	float: left;
 	font-weight: 100;
+}
+p a{
+	text-decoration: none;
+	color: #446CB3;
 }
 strong{
 	font-weight: 900;
