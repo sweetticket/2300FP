@@ -59,6 +59,7 @@ $headersrc = "../img/headers/header_donate.png"; ?>
 			</div>
 
 		</div>
+		<?php include("template/footer.php"); ?>
 	</div>
 
 </body>

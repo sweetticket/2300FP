@@ -127,6 +127,7 @@ $headersrc = "../img/headers/header_sponsors.png"; ?>
 		</div>
 
 </div>
+<?php include("template/footer.php"); ?>
 </div>
 
 </body>

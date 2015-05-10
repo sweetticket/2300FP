@@ -46,7 +46,8 @@ $headersrc = "../img/headers/header_gallery.png"; ?>
 		</div>
 
 </div>
+<?php include("template/footer.php"); ?>
 </div>
-<script src="js/display_data.js"></script>
+<!--<script src="js/display_data.js"></script>-->
 </body>
 </html>

@@ -14,7 +14,6 @@
 <body>
 <?php include("template/nav.php"); ?>
 <div class="wrapper">
-<?php include("template/header.php"); ?>
 <div class="main_content_wrapper">
         <div class="landing_img_container">
             <img src="" alt="" class="landing_img"> <!-- landing img will go here-->
@@ -93,6 +92,7 @@
             ?>
         </div>
 </div>
+<?php include("template/footer.php"); ?>
 </div>
 
 

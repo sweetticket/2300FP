@@ -86,6 +86,7 @@ $headersrc = "../img/headers/header_comp.png"; ?>
 
 		
 </div>
+<?php include("template/footer.php"); ?>
 </div>
 
 </body>
