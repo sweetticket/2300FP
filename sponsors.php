@@ -117,6 +117,10 @@ $headersrc = "../img/headers/header_sponsors.png"; ?>
 						<input type='submit' name='submit' value='Add Sponsor'>
 					</form>
 				</div>
+				<div>
+					<h1>Delete a Sponsor</h1>
+					<p>Click <a href="delete_sponsors.php">here</a> to go to the delete sponsors page</p>
+				</div>
 				<?php
 			}
 			?>
