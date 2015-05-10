@@ -7,6 +7,7 @@
     <title>Cornell FSAE</title>
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>

@@ -42,6 +42,7 @@ $headersrc = "../img/headers/header_news.png";?>
 		</div>
 
 </div>
+<?php include("template/footer.php"); ?>
 </div>
 
 </body>

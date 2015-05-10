@@ -57,6 +57,7 @@ $headersrc = "../img/headers/header_team.png"; ?>
 		</div>
 
 </div>
+<?php include("template/footer.php"); ?>
 </div>
 
 </body>

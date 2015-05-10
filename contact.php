@@ -7,9 +7,9 @@ $headersrc = "../img/headers/header_contact.png"; ?>
 <head>
 	<meta charset="utf-8">
 	<title>Contact Us</title>
-	<!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
 	<script src="js/jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	
 </head>
 
@@ -54,6 +54,7 @@ $headersrc = "../img/headers/header_contact.png"; ?>
 			</div>
 
 		</div>
+		<?php include("template/footer.php"); ?>
 	</div>
 
 </body>
