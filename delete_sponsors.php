@@ -1,6 +1,6 @@
 <?php session_start();
 $title = "OUR SPONSORS";
-$headersrc = "../img/headers/header_sponsors.png"; ?>
+$headersrc = "./img/headers/header_sponsors.png"; ?>
 <!DOCTYPE html>
 
 <html>

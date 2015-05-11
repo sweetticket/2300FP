@@ -1,6 +1,6 @@
 <?php session_start();
 $title = "ABOUT";
-$headersrc = "../img/headers/header_about.png"; ?>
+$headersrc = "./img/headers/header_about.png"; ?>
 <!DOCTYPE html>
 
 <html>

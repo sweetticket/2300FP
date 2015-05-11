@@ -1,6 +1,6 @@
 <?php session_start(); 
 $title = "THE CARS";
-$headersrc = "../img/headers/header_cars.png"; ?>
+$headersrc = "./img/headers/header_cars.png"; ?>
 <!DOCTYPE html>
 
 <html>

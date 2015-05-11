@@ -1,6 +1,6 @@
 <?php session_start();
 $title = "GALLERY";
-$headersrc = "../img/headers/header_gallery.png"; ?>
+$headersrc = "./img/headers/header_gallery.png"; ?>
 <!DOCTYPE html>
 
 <html>
