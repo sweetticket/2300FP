@@ -4,11 +4,17 @@
 	margin-bottom: 10%;
 }
 
+.main_content {
+	width: 40%;
+	display: inline-block;
+}
+
 .contact_wrapper{
 	position: absolute;
 	right: 0%;
 	width: 45%;
 	top: 700px;
+
 }
 
 #main_content p {
