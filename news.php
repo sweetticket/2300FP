@@ -32,11 +32,11 @@ $headersrc = "./img/headers/header_news.png";?>
 
 			<h1>Newsletters</h1>
 			<ul>
-				<li><a href="docs/ARG15_Winter.pdf">Winter 2015</a></li>
-				<li><a href="docs/ARG14_Winter.pdf">Winter 2014</a></li>
-				<li><a href="docs/Fall2013.pdf">Fall 2013</a></li>
-				<li><a href="docs/postcomp13.pdf">Post-Competition 2013</a></li>
-				<li><a href="docs/sp12.pdf">Post-Competition 2012</a></li>
+				<li class="news_li"><a href="docs/ARG15_Winter.pdf">Winter 2015</a></li>
+				<li class="news_li"><a href="docs/ARG14_Winter.pdf">Winter 2014</a></li>
+				<li class="news_li"><a href="docs/Fall2013.pdf">Fall 2013</a></li>
+				<li class="news_li"><a href="docs/postcomp13.pdf">Post-Competition 2013</a></li>
+				<li class="news_li"><a href="docs/sp12.pdf">Post-Competition 2012</a></li>
 
 			</ul>
 			<p>PLACEHOLDER FOR NEWSLETTER SIGNUP FORM</p>
