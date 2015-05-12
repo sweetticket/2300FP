@@ -56,9 +56,24 @@ $headersrc = "./img/headers/header_contact.png"; ?>
 				   	?>
 				</form>
 
-				<p>Interested in Cornell Racing? Contact us at:</p>
+				
 			</div>
 
+			<div class = "contact_wrapper">
+				<p>Interested in Cornell Racing? Contact us at:</p>
+				<p>
+					138 Upson Hall
+				</p>
+				<p>
+					Ithaca, NY 14853
+				</p>
+				<p>
+					Tel: 607 255 6254
+				</p>
+				<p>
+					cufsae@cornell.edu
+				</p>
+			</div>
 		</div>
 		<?php include("template/footer.php"); ?>
 	</div>

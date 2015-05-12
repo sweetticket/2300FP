@@ -37,9 +37,9 @@ $headersrc = "./img/headers/header_donate.png"; ?>
 					<br>
 					If you have any questions, please check out our 
 					<a href="https://www.giving.cornell.edu/give/?gifttype=21&comments=Cornell%20Formula%20SAE%20Racing%20%28All%20Donations%20To%20E55-8747%29">
-						online donation page
+						online donation page,
 					</a>
-					, our 
+					our 
 					<a href="docs/2015sponsor.pdf">
 					sponsorship packet
 					</a>
