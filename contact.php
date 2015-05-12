@@ -37,11 +37,11 @@ $headersrc = "./img/headers/header_contact.png"; ?>
 				   		<input type = "text" name = "contactSubject" value = "<?php echo $subject;?>">
 				   	<span class = "error"><?php echo $subjectErr;?></span>
 				   	<br><br>
-				   	<label for = "contactMessage"> Message </label>
+				   	<label id="messagelabel" for = "contactMessage"> Message </label>
 				   		<textarea name = "message" rows = "5" cols = "40"><?php echo $message;?></textarea>
 				   	<span class = "error"><?php echo $messageErr;?></span>
 				   	<br><br>
-				   	<input type = "submit" name = "submit" value = "Submit">
+				   	<input id="submit" type = "submit" name = "submit" value = "Submit">
 				   	<span class = "error"><?php echo $success;?></span>
 				   	<?php
 				   	if ($_SERVER["REQUEST_METHOD"] == "POST") {

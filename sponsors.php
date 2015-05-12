@@ -22,7 +22,6 @@ $headersrc = "./img/headers/header_sponsors.png"; ?>
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div id="main_content">
-			<h1>Our Sponsors</h1>
 			<?php
 			require_once 'config.php';
 			$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);

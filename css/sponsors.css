@@ -1,3 +1,10 @@
 .sponsors_container img {
-	width: 200px;
+	width: 100px;
+}
+
+.sponsors_container {
+	background-color: #fff;
+	padding: 20px 40px 40px 40px;
+	border-radius: 7px;
+	margin-bottom: 30px;
 }
