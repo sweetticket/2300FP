@@ -10,6 +10,7 @@ $headersrc = "./img/headers/header_news.png";?>
     <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
 </head>
 
 <body>
