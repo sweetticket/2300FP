@@ -83,7 +83,7 @@
                     echo '<p>' . $mysqli->error . '</p>';
                     ?>
                     <p>You did not login successfully.</p>
-                    <p>Please <a href="login.php">login</a> again.</p>
+                    <p>Please <a href="login.php">try</a> again.</p>
                 <?php
                 }
 
