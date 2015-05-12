@@ -26,61 +26,200 @@ include("template/header.php"); ?>
 		</div>
 		<div class="side_nav">
 			<ul>
-				<li class="car_nav"><a href="#current" class="car_nav_link">The Current Car</a></li>
-				<li class="car_nav"><a href="#2010s" class="car_nav_link">2010s</a>
+				<li class="car_nav"><a id="2015" href="#main_content" class="car_nav_link">The Current Car</a></li>
+				<li class="car_nav"><span class="toggle_btn">2010s</span>
 					<ul>
-						<li><a id="2015" href="#current" class="car_nav_link">2015</a></li>
-						<li><a id="2014" href="#" class="car_nav_link">2014</a></li>
-						<li><a id="2013" href="#" class="car_nav_link">2013</a></li>
-						<li><a id="2012" href="#" class="car_nav_link">2012</a></li>
-						<li><a id="2011" href="#" class="car_nav_link">2011</a></li>
-						<li><a id="2010" href="#" class="car_nav_link">2010</a></li>
+						<li><a id="2014" href="#main_content" class="car_nav_link">2014</a></li>
+						<li><a id="2013" href="#main_content" class="car_nav_link">2013</a></li>
+						<li><a id="2012" href="#main_content" class="car_nav_link">2012</a></li>
+						<li><a id="2011" href="#main_content" class="car_nav_link">2011</a></li>
+						<li><a id="2010" href="#main_content" class="car_nav_link">2010</a></li>
 					</ul>
 				</li>
-				<li class="car_nav"><a href="#2000s" class="car_nav_link">2000s</a>
+				<li class="car_nav"><span class="toggle_btn">2000s</span>
 					<ul>
-						<li><a id="2009" href="#" class="car_nav_link">2009</a></li>
-						<li><a id="2008" href="#" class="car_nav_link">2008</a></li>
-						<li><a id="2007" href="#" class="car_nav_link">2007</a></li>
-						<li><a id="2006" href="#" class="car_nav_link">2006</a></li>
-						<li><a id="2005" href="#" class="car_nav_link">2005</a></li>
-						<li><a id="2004" href="#" class="car_nav_link">2004</a></li>
-						<li><a id="2003" href="#" class="car_nav_link">2003</a></li>
-						<li><a id="2002" href="#" class="car_nav_link">2002</a></li>
-						<li><a id="2001" href="#" class="car_nav_link">2001</a></li>
-						<li><a id="2000" href="#" class="car_nav_link">2000</a></li>
+						<li><a id="2009" href="#main_content" class="car_nav_link">2009</a></li>
+						<li><a id="2008" href="#main_content" class="car_nav_link">2008</a></li>
+						<li><a id="2007" href="#main_content" class="car_nav_link">2007</a></li>
+						<li><a id="2006" href="#main_content" class="car_nav_link">2006</a></li>
+						<li><a id="2005" href="#main_content" class="car_nav_link">2005</a></li>
+						<li><a id="2004" href="#main_content" class="car_nav_link">2004</a></li>
+						<li><a id="2003" href="#main_content" class="car_nav_link">2003</a></li>
+						<li><a id="2002" href="#main_content" class="car_nav_link">2002</a></li>
+						<li><a id="2001" href="#main_content" class="car_nav_link">2001</a></li>
+						<li><a id="2000" href="#main_content" class="car_nav_link">2000</a></li>
 					</ul>
 				</li>
-				<li class="car_nav"><a href="#1990s" class="car_nav_link">1990s</a>
+				<li class="car_nav"><span class="toggle_btn">1990s</span>
 					<ul>
-						<li><a id="1999" href="#" class="car_nav_link">1999</a></li>
-						<li><a id="1998" href="#" class="car_nav_link">1998</a></li>
-						<li><a id="1997" href="#" class="car_nav_link">1997</a></li>
-						<li><a id="1996" href="#" class="car_nav_link">1996</a></li>
-						<li><a id="1995" href="#" class="car_nav_link">1995</a></li>
-						<li><a id="1994" href="#" class="car_nav_link">1994</a></li>
-						<li><a id="1993" href="#" class="car_nav_link">1993</a></li>
-						<li><a id="1992" href="#" class="car_nav_link">1992</a></li>
-						<li><a id="1991" href="#" class="car_nav_link">1991</a></li>
-						<li><a id="1990" href="#" class="car_nav_link">1990</a></li>
+						<li><a id="1999" href="#main_content" class="car_nav_link">1999</a></li>
+						<li><a id="1998" href="#main_content" class="car_nav_link">1998</a></li>
+						<li><a id="1997" href="#main_content" class="car_nav_link">1997</a></li>
+						<li><a id="1996" href="#main_content" class="car_nav_link">1996</a></li>
+						<li><a id="1995" href="#main_content" class="car_nav_link">1995</a></li>
+						<li><a id="1994" href="#main_content" class="car_nav_link">1994</a></li>
+						<li><a id="1993" href="#main_content" class="car_nav_link">1993</a></li>
+						<li><a id="1992" href="#main_content" class="car_nav_link">1992</a></li>
+						<li><a id="1991" href="#main_content" class="car_nav_link">1991</a></li>
+						<li><a id="1990" href="#main_content" class="car_nav_link">1990</a></li>
 					</ul>
 				</li>
-				<li class="car_nav"><a href="#1980s" class="car_nav_link">1980s</a>
+				<li class="car_nav"><span class="toggle_btn">1980s</span>
 					<ul>
-						<li><a id="1989" href="#" class="car_nav_link">1989</a></li>
-						<li><a id="1988" href="#" class="car_nav_link">1988</a></li>
-						<li><a id="1987" href="#" class="car_nav_link">1987</a></li>
+						<li><a id="1989" href="#main_content" class="car_nav_link">1989</a></li>
+						<li><a id="1988" href="#main_content" class="car_nav_link">1988</a></li>
+						<li><a id="1987" href="#main_content" class="car_nav_link">1987</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		<div id="main_content">
-			<h1>The Cars</h1>
-			<?php
-			// Similar to the news page, the list of articles will be loaded from the database using php.
-			// Logged-in users will also have the ability to edit content.
-			// The editing feature may be done in all PHP with an additional edit post page or with JavaScript on this page.
-			?>
+			<div class="car_item" id="2015_item">
+				<h1>The Current Car</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2014_item">
+				<h1>2014</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2013_item">
+				<h1>2013</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2012_item">
+				<h1>2012</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2011_item">
+				<h1>2011</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2010_item">
+				<h1>2010</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2009_item">
+				<h1>2009</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2008_item">
+				<h1>2008</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2007_item">
+				<h1>2007</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2006_item">
+				<h1>2006</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2005_item">
+				<h1>2005</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2004_item">
+				<h1>2004</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2003_item">
+				<h1>2003</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2002_item">
+				<h1>2002</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2001_item">
+				<h1>2001</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="2000_item">
+				<h1>2000</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1999_item">
+				<h1>1999</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1998_item">
+				<h1>1998</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1997_item">
+				<h1>1997</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1996_item">
+				<h1>1996</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1995_item">
+				<h1>1995</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1994_item">
+				<h1>1994</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1993_item">
+				<h1>1993</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1992_item">
+				<h1>1992</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1991_item">
+				<h1>1991</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1990_item">
+				<h1>1990</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1989_item">
+				<h1>1989</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1988_item">
+				<h1>1988</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+			<div class="car_item" id="1987_item">
+				<h1>1987</h1>
+				<img src="" alt="car img" class="car_item_img">
+				<p> Description goes here.</p>
+			</div>
+
 		</div>
 
 </div>

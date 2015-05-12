@@ -17,7 +17,6 @@ body {
 	position: relative;
 	margin: 0;
 	z-index: 0;
-	padding-top: 35px;
 	padding-bottom: 250px;
 	background-color: #EEEEEE;
 }
@@ -29,6 +28,7 @@ body {
 #main_content {
 	margin: 20px auto;
 	width: 70%;
+	padding-top: 60px;
 }
 
 section p {
