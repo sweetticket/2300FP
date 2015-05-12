@@ -53,7 +53,7 @@ ul {
 #main_content {
 	position: relative;
 	z-index: 0;
-	min-height: 1000px;
+	min-height: 2000px;
 }
 
 .side_nav ul ul {
@@ -103,4 +103,42 @@ ul {
 
 .car_item {
 	display: none;
+}
+
+.car_item_img{
+	padding-left: 10%;
+	width: 80%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	color: maroon;
+}
+
+.car_item{
+	width: 80%;
+}
+
+p {
+	text-indent: 25px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#main_content ul {
+	list-style-type: initial;
+	padding-bottom: 15px;
+}
+
+.car_item_left{
+	float: left;
+	width: 45%;
+	text-align: left;
+}
+
+.car_item_right{
+	float: right;
+	width: 45%;
+	text-align: left;
 }

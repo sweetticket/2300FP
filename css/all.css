@@ -248,3 +248,16 @@ footer {
 .right {
 	float: right;
 }
+
+
+h1{
+	font-size: 40px;
+	color: maroon;
+}
+strong{
+	font-weight: 900;
+}
+
+p {
+	font-size: 18px;
+}

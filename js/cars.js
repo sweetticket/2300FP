@@ -4,9 +4,18 @@ $(document).ready(function(){
 
 $('#2015_item').css('display', 'block');
 
-	$(".car_nav").click(function(){
+	$(".toggle_btn").click(function(){
+		if (!$(this).parent().children("ul").hasClass('open')){
+			$('.open').stop(true, true).slideToggle("slow").removeClass('open');
+			$(this).parent().children("ul").addClass('open');
+			$('.open').stop(true, true).slideToggle("slow");
+		}else{
+			$('.open').stop(true, true).slideToggle("slow").removeClass('open');
+		}
+	});
 
-		$(this).children("ul").stop(true, true).slideToggle("slow");
+	$(".current_car_link").click(function(){
+		$('.open').stop(true, true).slideToggle("slow").removeClass('open');
 	});
 
 	$(".car_nav_link").click(function(){

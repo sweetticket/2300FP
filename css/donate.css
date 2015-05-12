@@ -3,10 +3,13 @@
 	margin-left: 10%;
 	margin-bottom: 10%;
 }
-h1{
-	font-size: 40px;
-	color: maroon;
+
+.donate_wrapper{
+	margin-left: 5%;
+	display: inline-block;
+	width: 35%;
 }
+
 p{
 	font-size: 18px;
 	line-height: 25px;
@@ -18,14 +21,6 @@ p{
 p a{
 	text-decoration: none;
 	color: #446CB3;
-}
-strong{
-	font-weight: 900;
-}
-.donate_wrapper{
-	margin-left: 5%;
-	display: inline-block;
-	width: 35%;
 }
 
 #paypal_btn {
