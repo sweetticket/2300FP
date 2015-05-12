@@ -1,6 +1,6 @@
-.main_content_wrapper{
+#main_content{
 	width: 80%;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-bottom: 10%;
 }
 
@@ -10,7 +10,7 @@
 	width: 35%;
 }
 
-p{
+.main_content_wrapper p{
 	font-size: 18px;
 	line-height: 25px;
 	width: 50%;
@@ -18,7 +18,7 @@ p{
 	float: left;
 	font-weight: 100;
 }
-p a{
+.main_content_wrapper p a{
 	text-decoration: none;
 	color: #446CB3;
 }
@@ -30,3 +30,5 @@ p a{
 	font-size: 20px;
 	background-color: #BDC3C7;
 }
+
+
