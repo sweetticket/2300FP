@@ -23,14 +23,9 @@ $headersrc = "./img/headers/header_gallery.png"; ?>
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div id="main_content">
-			<h1>Gallery</h1>
-            <p>Images will go here.</p>
+            <p class="instruct">Click on an image to view full-size.</p>
             <div id="container">
             
-            <div class="item_container">
-            <a href="img/gallery/the_team/2011.jpg"><img src="img/gallery/the_team/2011.jpg" alt="team2011"></a>
-            </div>
-
             <div class="item_container">
             <a href="img/gallery/the_team/sp_2013.jpg"><img src="img/gallery/the_team/sp_2013.jpg" alt="team2013"></a>
             </div>
