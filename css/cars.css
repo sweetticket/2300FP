@@ -1,9 +1,13 @@
 .side_nav {
-	position: fixed;
-	top: 300px;
-	right: 30px;
+	position: absolute;
+	top: 650px;
+	right: 50px;
 	z-index: 3;
 	width: 250px;
+}
+
+.main_content {
+	min-height: 1000px;
 }
 
 ul {
@@ -55,18 +59,21 @@ ul {
 	border-radius: 0px; 
 	padding: 0;
 	/*position: absolute; */
-	top: 100%;
+	top: 20px;
+	width: 100%;
 	margin: 0;
 }
 	.side_nav ul ul li {
 		float: none; 
 		background: #000;
 		position: relative;
+		right: 10px;
 		display: block;
 		margin: 0;
 		vertical-align: middle;
-		line-height: 55px;
-		height: 55px;
+		line-height: 20px;
+		height: 20px;
+		width: 100%;
 	}
 		.side_nav ul ul li a {
 			color: #fff;
@@ -77,6 +84,6 @@ ul {
 			width: inherit;
 
 		}	
-			.side_nav ul ul li a:hover {
+			.side_nav ul ul li:hover {
 				background: #333;
 			}
