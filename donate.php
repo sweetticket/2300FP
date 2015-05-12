@@ -21,7 +21,7 @@ $headersrc = "./img/headers/header_donate.png"; ?>
 			<div class="landing_img_container">
 				<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 			</div>
-			<div class="main_content">
+			<div id="main_content">
 				<h1>Interested In Donating?</h1>
 				<p>
 					To donate to the Cornell Racing FSAE team, please make checks payable to <strong>"Cornell Formula SAE"</strong> and mail to the address below: <br>

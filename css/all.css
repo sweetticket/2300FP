@@ -26,7 +26,7 @@ body {
 	padding: 0px;
 }
 
-.main_content {
+#main_content {
 	margin: 20px auto;
 	width: 70%;
 }

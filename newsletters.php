@@ -19,7 +19,7 @@
 		<div class="landing_img_container">
 			<img src="img/gallery/newsletter.jpg" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1>Newsletters</h1>
 			<ul>
 				<li class="newsletter_item"><a class="newsletter_link" href="docs/ARG15_Winter.pdf">Winter 2015</a></li>

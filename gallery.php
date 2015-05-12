@@ -22,7 +22,7 @@ $headersrc = "./img/headers/header_gallery.png"; ?>
 		<div class="landing_img_container">
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1>Gallery</h1>
             <p>Images will go here.</p>
             <?php

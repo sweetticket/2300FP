@@ -74,7 +74,7 @@ include("template/header.php"); ?>
 				</li>
 			</ul>
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1>The Cars</h1>
 			<?php
 			// Similar to the news page, the list of articles will be loaded from the database using php.

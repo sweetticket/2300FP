@@ -21,7 +21,7 @@ $headersrc = "./img/headers/header_comp.png"; ?>
 		<div class="landing_img_container">
 			<img src="img/gallery/competition/comp1.jpg" alt="competition1" class="landing_img"> <!-- landing img will go here-->
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<div class="info">
 			<h1>The Competition</h1>
 			<p>

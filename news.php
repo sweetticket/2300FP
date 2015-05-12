@@ -20,7 +20,7 @@ $headersrc = "./img/headers/header_news.png";?>
 		<div class="landing_img_container">
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1>News</h1>
 			<p>Main news page. Link to Announcements and Newsletters will also be here.</p>
 			<?php

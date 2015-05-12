@@ -21,7 +21,7 @@ $headersrc = "./img/headers/header_sponsors.png"; ?>
 		<div class="landing_img_container">
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1>Our Sponsors</h1>
 			<?php
 			require_once 'config.php';

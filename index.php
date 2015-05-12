@@ -21,7 +21,7 @@
 			</div>
 			<img src="img/team/theteam.jpg" alt="the team" class="landing_img">
 		</div>
-		<div class="main_content">
+		<div id="main_content">
 			<h1></h1>
 		</div>
 		<div class="twitter_side">

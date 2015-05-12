@@ -22,7 +22,7 @@ a:hover{
 	display: inline-block;
 	float: right;
 }
-.main_content{
+#main_content{
 	width: 50%;
 	display: inline-block;
 	float: left;
