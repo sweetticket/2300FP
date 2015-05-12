@@ -23,6 +23,7 @@ $headersrc = "./img/headers/header_sponsors.png"; ?>
 		</div>
 		<div class="main_content">
 			<h1>Delete Sponsors</h1>
+            <p>Select the sponsors you would like to remove</p>
 			<?php
 			if (isset($_SESSION['logged_user_by_sql']) && $_SESSION['logged_user_by_sql']=='cornellfsae'){
 				require_once 'config.php';
