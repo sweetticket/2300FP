@@ -4,9 +4,16 @@
 	margin-bottom: 10%;
 }
 
+.main_content {
+	width: 40%;
+	display: inline-block;
+}
+
 .contact_wrapper{
 	margin-left: 50%;
 	width: 35%;
+	text-align: right;
+	display: inline-block;
 }
 
 p {
