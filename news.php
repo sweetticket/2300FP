@@ -22,13 +22,6 @@ $headersrc = "./img/headers/header_news.png";?>
 			<img src="" alt="" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div id="main_content">
-			<h1>News</h1>
-			<p>Main news page. Link to Announcements and Newsletters will also be here.</p>
-			<?php
-			// The list of articles will be loaded from the database using php.
-			// Logged-in users will also have the ability to edit content.
-			// The editing feature may be done in all PHP with an additional edit post page or with JavaScript on this page.
-			?>
 
 			<h1>Newsletters</h1>
 			<ul>
@@ -39,7 +32,6 @@ $headersrc = "./img/headers/header_news.png";?>
 				<li class="news_li"><a href="docs/sp12.pdf">Post-Competition 2012</a></li>
 
 			</ul>
-			<p>PLACEHOLDER FOR NEWSLETTER SIGNUP FORM</p>
 		</div>
 
 </div>

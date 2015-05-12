@@ -7,9 +7,9 @@ $headersrc = "./img/headers/header_about.png"; ?>
 <head>
     <meta charset="utf-8">
     <title>About</title>
-    <!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
 </head>
 
 <body>
@@ -22,16 +22,19 @@ $headersrc = "./img/headers/header_about.png"; ?>
 		</div>
 		<div id="main_content">
 			<section>
-			<h1>About FSAE</h1>
-			<p>Main about page. General information about FSAE will go here. Also, links to the sub-categories under "About" </p>
-			</section>
-			<section>
 			<h1>Our History</h1>
-			<p>Stuff about history goes here. </p>
+			<p>Cornell’s Formula SAE Team was established in 1986. Professor Albert R. George became the faculty advisor overseeing approximately a dozen mechanical engineering students who began researching and designing a racecar from scratch. Since then, the team has grown substantially and has been greatly diversified. Today, an average Cornell Racing team is comprised of about 50 undergraduate and graduate students and has had participating members from nearly every school within Cornell.  </p>
+			<p>Cornell Racing has competed for the last 26 years at FSAE Michigan, the last 5 years at the University of Toronto Shootout, and in 2011 at Formula Student Germany. </p>
+			<img src="img/gallery/history/main1.jpg" alt="historyimg" class="historyimg">
 			</section>
 			<section>
 			<h1>Learn More</h1>
-			<p>Links to sub categories go here. </p>
+			<p>Click on the links below to learn more about us.</p>
+			<ul>
+				<li><a href="team.php">The Team</a></li>
+				<li><a href="competition.php">The Competition</a></li>
+				<li><a href="cars.php">The Cars</a></li>
+			</ul>
 			</section>
 		</div>
 

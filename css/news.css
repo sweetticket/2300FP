@@ -1,5 +1,18 @@
-.news_li a{
+#main_content a, #main_content a:link, #main_content a:visited{
 	text-decoration: none;
-	color:maroon;
+	color: maroon;
 	font-size: 20px;
+	line-height: 50px;
+}
+
+#main_content ul {
+	list-style-type: none;
+}
+
+#main_content a:hover {
+	background-color: #ABABAB;
+}
+
+#main_content{
+	min-height: 400px;
 }

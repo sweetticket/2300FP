@@ -1,0 +1,32 @@
+#main_content {
+	min-height: 600px;
+}
+
+.historyimg {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p {
+	text-indent: 25px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#main_content a, #main_content a:link, #main_content a:visited{
+	text-decoration: none;
+	color: maroon;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#main_content a:hover {
+	background-color: #ABABAB;
+}
+
+#main_content ul {
+	list-style-type: none;
+}

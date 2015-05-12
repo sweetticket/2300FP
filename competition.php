@@ -19,7 +19,6 @@ $headersrc = "./img/headers/header_comp.png"; ?>
 <?php include("template/header.php"); ?>
 <div class="main_content_wrapper">
 		<div class="landing_img_container">
-			<img src="img/gallery/competition/comp1.jpg" alt="competition1" class="landing_img"> <!-- landing img will go here-->
 		</div>
 		<div id="main_content">
 			<div class="info">
@@ -38,7 +37,7 @@ $headersrc = "./img/headers/header_comp.png"; ?>
 			</p>
 		</div>
 
-				<div class="competition_img_container">
+		<div class="competition_img_container">
 			<img src="img/gallery/competition/comp2.jpg" alt="competition2" class="comp_img">
 		</div>
 

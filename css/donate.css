@@ -18,17 +18,35 @@
 	float: left;
 	font-weight: 100;
 }
-.main_content_wrapper p a{
-	text-decoration: none;
-	color: #446CB3;
-}
+
 
 #paypal_btn {
-	margin-top: 30px;
+	margin-top: 50px;
 	padding: 20px;
 	border-radius: 5px;
 	font-size: 20px;
-	background-color: #BDC3C7;
+	color: #fff;
+	background-color: #DB3F3F;
+	border-color: #DB3F3F;
 }
 
+#paypal_btn:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #9E2E2E;
+	border-color: #9E2E2E;
+}
+
+#main_content a, #main_content a:link, #main_content a:visited {
+	text-decoration: none;
+	color: maroon;
+}
+
+#main_content a:hover {
+	background-color: #ABABAB;
+}
+
+#main_content {
+	min-height: 550px;
+}
 
